@@ -25,7 +25,7 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
+  ui[0]: "game_button"
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
@@ -35,14 +35,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "red"
+  uo[1]: "green"
+  uo[2]: "blue"
+  uo[3]: "v_sync"
+  uo[4]: "red"
+  uo[5]: "green"
+  uo[6]: "blue"
+  uo[7]: "h_sync"
 
   # Bidirectional pins
   uio[0]: ""
